@@ -1,5 +1,3 @@
-<img src="life_expectancy_prediction.png" height="20%" width="100%" alt="Disk Sanitization Steps"/>
-
 # Predicting Countries' Life Expectancy using Immunization related, Mortality, Economical, and Social Factors
 
 ![Status Update](https://img.shields.io/badge/Status-Complete-brightgreen) 
@@ -12,7 +10,9 @@
 
 Badge [source](https://shields.io/)
 
-## Key findings: Countries with highest HIV/AIDS prevalence and lowest income are the most likely to have the lowest life expectancy. 
+## Key findings
+
+Countries with highest HIV/AIDS prevalence and lowest income are the most likely to have the lowest life expectancy. 
 
 ## Authors
 
@@ -39,22 +39,18 @@ This project consists of  that walks the user through "zeroing out" (wiping) any
 
 ## Table of Contents
 
-  - [Business problem](#business-problem)
+  - [Motivation](#motivation)
   - [Data source](#data-source)
   - [Methods](#methods)
-  - [Tech Stack](#tech-stack)
-  - [Quick glance at the results](#quick-glance-at-the-results)
-  - [Lessons learned and recommendation](#lessons-learned-and-recommendation)
-  - [Limitation and what can be improved](#limitation-and-what-can-be-improved)
-  - [Run Locally](#run-locally)
-  - [Explore the notebook](#explore-the-notebook)
-  - [Deployment on streamlit](#deployment-on-streamlit)
-  - [App deployed on Streamlit](#app-deployed-on-streamlit)
-  - [Repository structure](#repository-structure)
-  - [Contribution](#contribution)
+  - [Quick Glance at the Results](#quick-glance-at-the-results)
+  - [Lessons Learned and Recommendations](#lessons-learned-and-recommendations)
+  - [Limitations and What Can Be Improved](#limitations-and-what-can-be-improved)
+  - [Explore the Notebook](#explore-the-notebook)
   - [License](#license)
 
-## Data source
+## Motivation 
+
+## Data Source
 
 - [Life Expectancy (WHO)](https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who)
 
@@ -69,13 +65,13 @@ This project consists of  that walks the user through "zeroing out" (wiping) any
 - Ridge Regression
 - Decision Tree
 
-## Quick Glace at the Results
+## Quick Glance at the Results
 
 ## Lessons Learned and Recommendations
 
 ## Limitations and What Can Be Improved
 
-## Explore the notebook
+## Explore the Notebook
 
 To explore the notebook file [here](https://nbviewer.org/github/semasuka/Credit-card-approval-prediction-classification/blob/main/Credit_card_approval_prediction.ipynb)
 
