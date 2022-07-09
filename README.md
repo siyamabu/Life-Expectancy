@@ -55,7 +55,7 @@ This project consists of  that walks the user through "zeroing out" (wiping) any
 
 ## Dataset Description
 
-* The dataset is related to life expectancy. Health factors for 193 countries have been collected from the same WHO data repository website and its corresponding economic data was collected from United Nation website. Among all categories of health-related factors only those critical factors were chosen which are more representative. The dataset consists of 22 Columns and 2938 rows. The predictor variables are divided into several broad categories: Immunization related factors, Mortality factors, Economical factors and Social factors.
+The dataset is related to life expectancy. Health factors for 193 countries have been collected from the same WHO data repository website and its corresponding economic data was collected from United Nation website. Among all categories of health-related factors only those critical factors were chosen which are more representative. The dataset consists of 22 Columns and 2938 rows. The predictor variables are divided into several broad categories: Immunization related factors, Mortality factors, Economical factors and Social factors.
 
 ## Methods
 
@@ -66,21 +66,29 @@ This project consists of  that walks the user through "zeroing out" (wiping) any
 
 ## Quick Glance at the Results
 
-Correlations between variables
+Correlations between variables.
 
 ![heatmap](pictures/life_correlation_heatmap.png)
 
-A comparison of the best results from each model
+A comparison of the best results from each model.
 
-The Residuals vs Predicted Strength for the best linear regression model 
+The Residuals vs Predicted Strength for the best linear regression model.
 
-The Observed Strength vs Predicted Strength for the best linear regression model
+![graph1](pictures/residuals_vs_predicted_linear_regression.png) 
 
-The Residuals vs Predicted Strength for the best decision tree regression model 
+The Observed Strength vs Predicted Strength for the best linear regression model.
 
-The Observed Strength vs Predicted Strength for the bestdecision regression model
+![graph2](pictures/observed_strength_vs_predicted_strength_linear%20regression.png)
 
-Feature importance of from the best decision tree model
+The Residuals vs Predicted Strength for the best decision tree regression model. 
+
+![graph3](pictures/residuals_vs_predicted_decision_tree_regression.png)
+
+The Observed Strength vs Predicted Strength for the best decision tree regression model.
+
+![graph4](pictures/observed_strength_vs_predicted_strength_decision_tree_%20regression.png)
+
+Feature importance of from the best decision tree model.
 
 ## Lessons Learned and Recommendations
 
@@ -88,7 +96,7 @@ Feature importance of from the best decision tree model
 
 ## Explore the Notebook
 
-To explore the notebook file [here](https://nbviewer.org/github/semasuka/Credit-card-approval-prediction-classification/blob/main/Credit_card_approval_prediction.ipynb)
+To explore the notebook file [here](https://github.com/siyamabu/Life-Expectancy/blob/main/life_expectancy_prediction.ipynb)
 
 ## License
 
