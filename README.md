@@ -72,6 +72,8 @@ Correlations between variables.
 
 A comparison of the best results from each model.
 
+![graphx](pictures/model_results.png)
+
 The Residuals vs Predicted Strength for the best linear regression model.
 
 ![graph1](pictures/residuals_vs_predicted_linear_regression.png) 
@@ -88,7 +90,9 @@ The Observed Strength vs Predicted Strength for the best decision tree regressio
 
 ![graph4](pictures/observed_strength_vs_predicted_strength_decision_tree_%20regression.png)
 
-Feature importance of from the best decision tree model.
+5 highest feature importance scores from the best decision tree model.
+
+![graphy](pictures/feature_importance.png) 
 
 ## Lessons Learned and Recommendations
 
