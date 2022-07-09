@@ -66,6 +66,22 @@ This project consists of  that walks the user through "zeroing out" (wiping) any
 
 ## Quick Glance at the Results
 
+Correlations between variables
+
+![heatmap](pictures/life_correlation_heatmap.png)
+
+A comparison of the best results from each model
+
+The Residuals vs Predicted Strength for the best linear regression model 
+
+The Observed Strength vs Predicted Strength for the best linear regression model
+
+The Residuals vs Predicted Strength for the best decision tree regression model 
+
+The Observed Strength vs Predicted Strength for the bestdecision regression model
+
+Feature importance of from the best decision tree model
+
 ## Lessons Learned and Recommendations
 
 ## Limitations and What Can Be Improved
