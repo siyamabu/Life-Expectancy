@@ -1,3 +1,5 @@
+<img src="life_expectancy_prediction.png" height="20%" width="100%" alt="Disk Sanitization Steps"/>
+
 # Predicting Countries' Life Expectancy using Immunization related, Mortality, Economical, and Social Factors
 
 ![Status Update](https://img.shields.io/badge/Status-Complete-brightgreen) 
