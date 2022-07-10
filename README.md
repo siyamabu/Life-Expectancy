@@ -45,6 +45,7 @@ Countries with highest HIV/AIDS prevalence and lowest income are the most likely
 
 ## Motivation 
 
+Being born and raised in a developing country with a high mortality rate evoked my interest in understanding the factors contributing towards its low life expectancy. There is no better indicator of a country's social development than having a long and healthy life. However, what are the population conditions limiting this?
 
 ## Data Source
 
@@ -52,7 +53,7 @@ Countries with highest HIV/AIDS prevalence and lowest income are the most likely
 
 ## Dataset Description
 
-The dataset is related to life expectancy. Health factors for 193 countries have been collected from the same WHO data repository website and its corresponding economic data was collected from United Nation website. Among all categories of health-related factors only those critical factors were chosen which are more representative. The dataset consists of 22 Columns and 2938 rows. The predictor variables are divided into several broad categories: Immunization related factors, Mortality factors, Economical factors and Social factors.
+The dataset is related to life expectancy. Health factors for 193 countries have been collected from the same WHO data repository website and its corresponding economic data was collected from United Nation website. Among all categories of health-related factors only those critical factors were chosen which are more representative. The dataset consists of 22 Columns and 2938 rows. The predictor variables are divided into several broad categories: immunization related factors, mortality factors, economical factors and social factors.
 
 ## Methods
 
@@ -109,9 +110,9 @@ The Observed Strength vs Predicted Strength for the best decision tree regressio
 - Schooling had the highest correlation with life expectancy. This means we can expect region areas with higher levels of schooling to have higher life expectancies. 
 - Efforts towards improving life expectancy need to focus on alleviating fatal diseases such as HIV/AIDs. These efforts are made more effective by equitably distibuting income which provides more people with access to healthcare, medicine, and schooling.
 
-## Limitation and What Can Be Improved
-- There are other numerous factors impacting life expectancy not included in this examination (wars, accidents, other diseases e.g, cancer)
-- This model can be improved by including these features. 
+## Limitations and What Can Be Improved
+- There are other numerous factors impacting life expectancy not included in this examination. (wars, accidents, other diseases e.g, cancer)
+- The predictions can be improved by including these features. 
 
 ## Explore the Notebook
 
