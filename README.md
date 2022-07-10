@@ -1,4 +1,4 @@
-# Predicting Countries' Life Expectancy using Immunization related, Mortality, Economical, and Social Factors
+# Predicting Countries' Life Expectancy using Immunization Related, Mortality, Economical, and Social Factors
 
 ![Status Update](https://img.shields.io/badge/Status-Complete-brightgreen) 
 ![GitHub top language](https://img.shields.io/github/languages/top/sverma1012/income-level?color=%23F37626&logo=Jupyter&logoColor=%23F37626&style=flat-square)
@@ -32,10 +32,6 @@ Countries with highest HIV/AIDS prevalence and lowest income are the most likely
 **Environments Used:**<br />
 * Windows 10 🪟
 
-## Description 
-
-This project consists of  that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
-
 ## Table of Contents
 
   - [Motivation](#motivation)
@@ -59,10 +55,23 @@ The dataset is related to life expectancy. Health factors for 193 countries have
 
 ## Methods
 
-- Multivariate correlation
-- Linear Regression
-- Ridge Regression
-- Decision Tree
+1. Exploratory Data Analysis
+    * Historgrams of each quantitative feature and an assessment of correlations between pairs of quantitative variables. 
+    * Value counts table of each qualitative feature. 
+2. Data Cleaning
+    * An analysis on the extent of missing values for each feature coupled with a missing value imputation using the median. 
+    * Transformation of highly skewed quanitative features. 
+    * One-Hot encoding of qualitative features. 
+3. Linear Regression
+    * First Model using transformed and one-hot encode features.
+    * Second Model where the transformed features are standardized and polynomial features with degree=2 are added. 
+    * 5 Fold Cross Validation
+4. Ridge Regression
+    * One model using the transformed standardized features with polynomial features with degree=2 added.
+5. Decision Tree Regression
+   * First Tree using max_depth=5 and min_samples_leaf=5
+   * Second Tree using GridSearchCV to find a more optimal tree
+   * 5 Fold Cross Validations 
 
 ## Quick Glance at the Results
 
