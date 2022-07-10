@@ -45,6 +45,7 @@ Countries with highest HIV/AIDS prevalence and lowest income are the most likely
 
 ## Motivation 
 
+
 ## Data Source
 
 - [Life Expectancy (WHO)](https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who)
@@ -56,7 +57,7 @@ The dataset is related to life expectancy. Health factors for 193 countries have
 ## Methods
 
 1. Exploratory Data Analysis
-    * Historgrams of each quantitative feature and an assessment of correlations between pairs of quantitative variables. 
+    * Historgrams of each quantitative feature and an assessment of correlations between pairs of quantitative features. 
     * Value counts table of each qualitative feature. 
 2. Data Cleaning
     * An analysis on the extent of missing values for each feature coupled with a missing value imputation using the median. 
@@ -65,13 +66,13 @@ The dataset is related to life expectancy. Health factors for 193 countries have
 3. Linear Regression
     * First Model using transformed and one-hot encode features.
     * Second Model where the transformed features are standardized and polynomial features with degree=2 are added. 
-    * 5 Fold Cross Validation
+    * 5 Fold Cross Validation.
 4. Ridge Regression
     * One model using the transformed standardized features with polynomial features with degree=2 added.
 5. Decision Tree Regression
-   * First Tree using max_depth=5 and min_samples_leaf=5
-   * Second Tree using GridSearchCV to find a more optimal tree
-   * 5 Fold Cross Validations 
+   * First Tree using max_depth=5 and min_samples_leaf=5.
+   * Second Tree using GridSearchCV to find a more optimal tree.
+   * 5 Fold Cross Validation.
 
 ## Quick Glance at the Results
 
@@ -104,8 +105,13 @@ The Observed Strength vs Predicted Strength for the best decision tree regressio
 ![graphy](pictures/feature_importance.png) 
 
 ## Lessons Learned and Recommendations
+- HIV/AIDs and Income Composition are the most significant predictors of life expectancy. This elicits the importance of alleviating HIV/AIDs as well as equitably distributing income in efforts centered around improving life expectancy. 
+- Schooling had the highest correlation with life expectancy. This means we can expect region areas with higher levels of schooling to have higher life expectancies. 
+- Efforts towards improving life expectancy need to focus on alleviating fatal diseases such as HIV/AIDs. These efforts are made more effective by equitably distibuting income which provides more people with access to healthcare, medicine, and schooling.
 
-## Limitations and What Can Be Improved
+## Limitation and What Can Be Improved
+- There are other numerous factors impacting life expectancy not included in this examination (wars, accidents, other diseases e.g, cancer)
+- This model can be improved by including these features. 
 
 ## Explore the Notebook
 
