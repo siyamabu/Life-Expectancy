@@ -22,7 +22,7 @@ Countries with highest HIV/AIDS prevalence and lowest income are the most likely
 * Jupyter Notebook :notebook:
 * GitHub :heart_eyes:
 
-**Modules used:**<br />
+**Libraries used:**<br />
 * Pandas
 * Scikit-learn
 * Numpy
