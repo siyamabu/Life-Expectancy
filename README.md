@@ -70,7 +70,7 @@ The dataset is related to life expectancy. Health factors for 193 countries have
     * 5 Fold Cross Validation.
 4. Ridge Regression
     * One model using the transformed standardized features with polynomial features with degree=2 added.
-5. Decision Tree Regression
+5. Decision Tree Regressor
    * First Tree using max_depth=5 and min_samples_leaf=5.
    * Second Tree using GridSearchCV to find a more optimal tree.
    * 5 Fold Cross Validation.
